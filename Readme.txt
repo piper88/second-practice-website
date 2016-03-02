@@ -1,0 +1,1 @@
+My second attempt at making a basic website. Playing around with responsive design, absolute and relative positioning.
