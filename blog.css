@@ -1,0 +1,97 @@
+
+/* CENTERING MAIN PICTURE AND TITLE */
+#mainpic {
+	position: absolute;
+	width: 720px;
+	height: 283px;
+	margin: -141.5px 0 0 -360px;
+	left: 50%;
+	top: 50%;
+	z-index: 0;
+}
+
+/* #title {
+	position: absolute;
+	border: 3px solid black;
+	background-color: white;
+	height: 63.2px;
+	width: 300px;
+	margin: 115px 0 0 -150px;
+	left: 50%;
+	right: 50%;
+	z-index: 1;
+} */
+
+#mainpic>p {
+	font: 35px/1.2rem "open sans", sans-serif;
+	border: 3px solid black;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+	margin-top: -320px;
+	margin-left: 210px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* ADDING NAV BAR */
+#nav {
+	position: relative;
+    text-align: justify;
+    background-color: grey;
+    opacity: 0.8;
+    font-size:0;
+    
+}
+
+#nav:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+#nav li {
+    display: inline-block;
+    font-size:1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#nav a:link {
+    display: block;
+    padding: 1em 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* TEXT CONTENT */
+
+#aboutme {
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#aboutme>p {
+	font-size: 1.2em;
+	line-height: 115%;
+	text-align: justify;
+}
+
+
+span {
+	font-size: 1.5em;
+	font-style: bold;
+}
+
+/* FORM SUBMISSION STYLING */
+
+form {
+	text-align: center;
+	margin-top: 75px;
+}
